@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/Muhammedhashirm009/Jinnh /root/wabot-aq
+RUN git clone https://github.com/Muhammedhashirm009/Hashir0 /root/wabot-aq
 WORKDIR /root/wabot-aq/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
