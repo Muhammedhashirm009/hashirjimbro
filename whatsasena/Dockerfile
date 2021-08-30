@@ -4,6 +4,7 @@ RUN git clone https://github.com/Muhammedhashirm009/Jinnh /root/wabot-aq
 WORKDIR /root/wabot-aq/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
+RUN npm install @adiwajshing/baileys
 RUN yarn install --no-audit
 RUN yarn install ffmpeg -y
 RUN yarn install imagemagick -y
